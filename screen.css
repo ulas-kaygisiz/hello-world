@@ -1,9 +1,76 @@
 /* Add screen styles below */
+
 body {
     background: #fff;
     font-family: Helvetica, sans-serif;
+    border-top: 15px solid #424242;
+    margin: 0 auto;
+    color: #424242;
+}
+
+main {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.masthead {
+    background: no-repeat bottom / cover url('images/mac.jpg');
+    height: 200px;
+    border-radius: 20px;
+}
+
+.details {
+    display: flex;
+    gap: 25px;
+}
+
+.details section {
+    flex-grow: 1;
+    flex-basis: 0;
+    background-color: #e9eaec;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.details section p {
+    margin: 25px;
+}
+
+.details section h2 {
+    margin: 25px;
+}
+
+.details section.with-code {
+    padding: 0;
+}
+
+div.code-html {
+    padding: 25px;
+    background: #424242;
+    color: #fff;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
 }
 
 img {
     width: 100%;
+}
+
+h1 {
+    background-image: url('images/Logo.png');
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: center left;
+    font-size: 3em;
+    padding-left: 55px;
+    margin: 100px 0 25px 0;
+}
+
+h2 {
+    margin: 0 0 10px 0;
+}
+
+p {
+    margin: 0;
+    line-height: 1.4em;
 }
